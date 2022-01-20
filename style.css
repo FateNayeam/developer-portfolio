@@ -1,0 +1,127 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+.first-detail
+{
+    text-align: right;
+}
+
+.orange-color
+{
+    color: #d81b66;
+}
+
+.flexible-container
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width
+{
+    width: 50%;
+    padding-right: 2%;
+}
+
+.half-width img
+{
+    width: 80%;
+}
+
+.link-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(#d81b66, #910a40);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.top-banner
+{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second-half
+{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.second-half img
+{
+    width: 80%;
+    padding-top: 2%;
+    margin-left: 100px;
+}
+
+.link-button2
+{
+    text-decoration: none;
+    background-image: linear-gradient(#f88466, #f53c3c);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.dream-big
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp-aria h1
+{
+    text-align: center;
+}
+
+.exp-aria h2
+{
+    font-size: 40px;
+}
+
+.exp-aria
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp-item
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#exp
+{
+    border-left: 9px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#exp2
+{
+    border-left: 9px solid;
+    border-image: linear-gradient(red, violet);
+    border-image-slice: 1;
+}
+
+footer
+{
+    text-align: center;
+}
